@@ -1,0 +1,18 @@
+
+.navElement {
+    color: black;
+    font-weight: bold;  
+ }
+ 
+ .logo {
+     height: 50px;
+     width: 50px;
+     padding-right: 10px;
+ }
+   
+ .logo-heart {
+    height: 50px;
+    width: 68px;
+    padding-right: 20px;
+ }
+ 

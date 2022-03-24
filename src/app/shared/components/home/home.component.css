@@ -1,0 +1,74 @@
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Green' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Green' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  } 
+  
+  .carousel-caption{
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+  }
+  
+  .custom {
+  font-family: Florence, cursive;
+  color: rgb(15, 170, 23);
+  font-size:70px;
+  }
+  
+  
+  
+  .btn {
+  background-color: rgb(15, 170, 23);
+  border:azure;
+  }
+  
+  
+    
+   @media screen and (min-width: 6in) {
+  
+      .carousel-inner {
+        height: 6in;
+       }
+      
+       .img { 
+         max-height:6in;
+         }
+    
+         .carousel-caption{
+          transform: translateY(-50%);
+          bottom: initial;
+          top: 30%;
+          }
+          .csize {
+            font-family: Florence, cursive;
+            font-size:50px;
+            }
+  }
+  
+  @media screen and (min-width: 9in) {
+   
+  
+    .carousel-inner {
+      height: 9in;
+     }
+    
+     .img { 
+       max-height:9in;
+       }
+  
+       .carousel-caption{
+        transform: translateY(-50%);
+        bottom: initial;
+        top: 35%;
+        }
+  
+        .csize {
+          font-family: Florence, cursive;
+          font-size:70px;
+          }
+  } 
+   

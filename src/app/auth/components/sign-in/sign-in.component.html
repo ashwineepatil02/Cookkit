@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input [(ngModel)]="email" [ngModelOptions]="{standalone: true}" type="text" placeholder="email"/>
+        <input [(ngModel)]="password" [ngModelOptions]="{standalone: true}" type="password" placeholder="password"/>
+        <button (click)="onSignin()">login</button>
+        <p class="message">Not registered? <a href="/signup">Create an account</a></p>
+      </form>
+    </div>
+  </div>
+
+  
