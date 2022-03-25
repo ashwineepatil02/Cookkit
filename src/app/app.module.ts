@@ -16,12 +16,15 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { SignoutComponent } from './auth/components/signout/signout.component';
+import { ContactUsComponent } from './shared/components/contact-us/contact-us.component';
+import { SharedModule } from './shared/shared.module';
 
 const routes : Routes = [
     {path: '', component: HomeComponent},
     {path: 'signin', component: SignInComponent},
     {path: 'signup', component: SignUpComponent},
-    {path: 'signout', component: SignoutComponent}
+    {path: 'signout', component: SignoutComponent},
+    {path: 'contactus', component: ContactUsComponent}
 ];
 
 
@@ -35,7 +38,8 @@ const routes : Routes = [
     AngularFireModule.initializeApp(environment.firebaseConfig, 'blog-app'),
     RouterModule.forRoot(routes),
     AuthModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   providers: [FirebaseService],
   bootstrap: [AppComponent]

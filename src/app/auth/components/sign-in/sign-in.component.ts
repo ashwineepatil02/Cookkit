@@ -27,7 +27,6 @@ export class SignInComponent implements OnInit {
     }
     else{
       this.isSignedIn = false
-  
     }
   }
 

@@ -14,14 +14,13 @@ export class HeaderComponent implements OnInit {
     this.isSignedIn
   }
   ngOnInit(): void {
-    if(this.firebaseService.isLoggedIn)
+    if(localStorage.getItem('user') != null)
     {
       this.isSignedIn = true
  
     }
     else{
       this.isSignedIn = false
-  
     }
   }
 

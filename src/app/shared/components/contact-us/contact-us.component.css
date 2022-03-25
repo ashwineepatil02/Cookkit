@@ -1,0 +1,144 @@
+
+@media screen and (min-width: 6in) {
+
+   .image{
+    max-height:10%;
+    filter: brightness(50%);
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Florence, cursive;
+    color: rgb(226, 247, 226);
+    font-size:70px;
+    background-image: none;
+    background-color: transparent;
+  }
+  
+.rectangle1 {
+	position: absolute;
+	top: 115%;
+  left: 30%;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 500px;
+  background-color: rgb(226, 247, 226);
+}
+ 
+.rectangle2 {
+	position: absolute;
+	top: 115%;
+    left: 73%;
+    border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 500px;
+  background-color: rgb(226, 247, 226);
+}
+
+.rectangle3 {
+	position: absolute;
+	top: 154%;
+    left: 51.5%;
+    border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 1040px;
+  background-color: rgb(226, 247, 226);
+  padding-top: 100px
+}
+
+.logo{
+  position: absolute;
+  top:40%; 
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.text1{
+  position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Florence, cursive;
+    color: rgb(15, 15, 15);
+    font-size:18px;
+    background-image: none;
+    background-color: transparent;
+    text-underline-offset:unset;
+}
+
+ 
+}
+
+@media screen and (min-width: 9in) {
+  .image{
+    max-height:10%;
+    filter: brightness(50%);
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Florence, cursive;
+    color: rgb(226, 247, 226);
+    font-size:70px;
+    background-image: none;
+    background-color: transparent;
+  }
+  
+.rectangle1 {
+	position: absolute;
+	top: 115%;
+  left: 30%;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 500px;
+  background-color: rgb(226, 247, 226);
+}
+ 
+.rectangle2 {
+	position: absolute;
+	top: 115%;
+    left: 73%;
+    border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 500px;
+  background-color: rgb(226, 247, 226);
+}
+
+.rectangle3 {
+	position: absolute;
+	top: 154%;
+    left: 51.5%;
+    border-radius: 15px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 1040px;
+  background-color: rgb(226, 247, 226);
+  padding-top: 100px
+}
+
+.logo{
+  position: absolute;
+  top:40%; 
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.text1 {
+  position: absolute;
+  font-family: Florence;
+  color: rgb(15, 15, 15);
+  font-size:20px;
+  font:bold;
+  text-decoration: inherit;
+}
+} 
+

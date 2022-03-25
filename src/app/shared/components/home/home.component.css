@@ -36,6 +36,7 @@
       
        .img { 
          max-height:6in;
+         filter: brightness(50%);
          }
     
          .carousel-caption{
@@ -58,6 +59,7 @@
     
      .img { 
        max-height:9in;
+       filter: brightness(50%);
        }
   
        .carousel-caption{

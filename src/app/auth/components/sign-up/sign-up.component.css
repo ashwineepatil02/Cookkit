@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
   width: 360px;
   padding: 8% 0 0;
   margin: auto;

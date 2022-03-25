@@ -1,34 +1,34 @@
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand"><img src="assets/Images/logo-light.png"></a>
-     
-      <div class="nav me-auto mb-2 mb-lg-0" >
-          <li class="nav-item active">
-            <a class="nav-link active navElement" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navElement" href="#">Blogs</a>
-          </li>
-          </div>
-  
-          <div class="nav ms-auto mb-2 mb-lg-0">
-           
-            <li *ngIf="this.isSignedIn" class="nav-item">
-              <a ><img class="logo-heart" src="assets/Images/logo-liked.png"></a>
-            </li>
-            <li *ngIf="this.isSignedIn" class="nav-item">
-              <a ><img class="logo" src="assets/Images/logo-saved.png"></a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link navElement" href="#">Contact Us</a>
-          </li>
-          <li *ngIf="this.isSignedIn==false" class="nav-item" >
-            <a class="nav-link navElement"  href="/signin" >SignIn/SignUp</a>
-           </li> 
-           <li *ngIf="this.isSignedIn" class="nav-item">
-            <a class="nav-link navElement"  href="/signout" >SignOut</a>
-           </li>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand"><img src="assets/Images/logo-light.png"></a>
+
+    <div class="nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link active navElement" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navElement" href="/">Blogs</a>
+      </li>
     </div>
-   
-  </nav>
+
+    <div class="nav ms-auto mb-2 mb-lg-0">
+
+      <li *ngIf="this.isSignedIn==true" class="nav-item">
+        <a><img class="logo-heart" src="assets/Images/logo-liked.png"></a>
+      </li>
+      <li *ngIf="this.isSignedIn==true" class="nav-item">
+        <a><img class="logo" src="assets/Images/logo-saved.png"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navElement" href="/contactus">Contact Us</a>
+      </li>
+      <li *ngIf="this.isSignedIn==false" class="nav-item">
+        <a class="nav-link navElement" href="/signin">SignIn/SignUp</a>
+      </li>
+      <li *ngIf="this.isSignedIn==true" class="nav-item">
+        <a class="nav-link navElement" href="/signout">SignOut</a>
+      </li>
+    </div>
+  </div>
+
+</nav>

@@ -24,7 +24,8 @@ import { HeaderComponent } from '../shared/components/header/header.component';
   ],
   exports: [
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    SignoutComponent
   ]
 })
 export class AuthModule { }
