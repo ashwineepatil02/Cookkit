@@ -6,19 +6,26 @@
       <li class="nav-item active">
         <a class="nav-link active navElement" href="/">Home</a>
       </li>
-      <li class="nav-item">
+      <li *ngIf="this.isSignedIn==false" class="nav-item">
         <a class="nav-link navElement" href="/">Blogs</a>
+      </li>
+      <li *ngIf="this.isSignedIn==true" class="nav-item">
+        <a class="nav-link navElement" href="/myblogs">My Blogs</a>
       </li>
     </div>
 
     <div class="nav ms-auto mb-2 mb-lg-0">
 
       <li *ngIf="this.isSignedIn==true" class="nav-item">
-        <a><img class="logo-heart" src="assets/Images/logo-liked.png"></a>
+        <a href="/likedblogs"><img class="logo-heart" src="assets/Images/logo-liked.png"></a>
       </li>
       <li *ngIf="this.isSignedIn==true" class="nav-item">
-        <a><img class="logo" src="assets/Images/logo-saved.png"></a>
+        <a href="/savedblogs"><img class="logo" src="assets/Images/logo-saved.png"></a>
       </li>
+      <li *ngIf="this.isSignedIn==true" class="nav-item">
+        <a href="/myaccount"><img class="logo-myAccount" src="assets/Images/logo-myAccount.png"></a>
+      </li>
+      
       <li class="nav-item">
         <a class="nav-link navElement" href="/contactus">Contact Us</a>
       </li>

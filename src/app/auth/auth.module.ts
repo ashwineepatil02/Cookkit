@@ -14,7 +14,7 @@ import { HeaderComponent } from '../shared/components/header/header.component';
   declarations: [
     SignInComponent,
     SignUpComponent,
-    SignoutComponent
+    SignoutComponent,
   ],
   imports: [
     CommonModule,
